@@ -1,0 +1,73 @@
+/** training **/
+.training { margin-top: -90px;}
+
+.training_packages_bg { background: #fff; padding: 80px 0px;}
+
+.training .training_packages_box {
+    text-align: center;
+    padding: 25px 40px;
+    border-right: #a19a9a solid 1px;
+}
+.training .training_packages_box h3 {
+    font-size: 25px;
+    line-height: 28px;
+    color: #000;
+    font-weight: 500;
+    padding: 0;
+    text-transform: uppercase;
+}
+.training .training_packages_box h3:hover { color: #fff; }
+
+.training .training_packages_box span {
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 85px;
+    display: inline-block;
+}
+.training .training_packages_box p {
+    color: #ffff;
+    font-size: 70px;
+    line-height: 28px;
+    padding: 30px 0px;
+    font-weight: 400;
+    padding: 20px 0px 88px 0px;
+}
+.white_bold {
+    color: #000;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 46px;
+}
+.BookNow {
+    margin: 0 auto;
+    display: block;
+    background: #4e3d6b;
+    color: #fff;
+    max-width: 100px;
+	max-height: 90px;
+    padding: 11px 0px;
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.BookNow:hover { color: #000; background: #faea0f }
+.BookNoow {
+    margin: 0 auto;
+    display: block;
+    background: #faea0f;
+    color: #000;
+    max-width: 100px;
+	max-height: 90px;
+    padding: 11px 0px;
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.BookNoow:hover { color: #fff; background: #4e3d6b }
+
+/** end training **/

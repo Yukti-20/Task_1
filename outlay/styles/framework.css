@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+*, *::before, *::after{box-sizing:border-box;}
+
+.center{text-align:center;}
+.circle{border-radius:50%; background-clip:padding-box;}
+.group{display:block;}
+.group::before, .group::after{display:table; content:"";}
+.group, .group::after{clear:both;}
+a{outline:none; text-decoration:none;}
+
+/* Generalise
+--------------------------------------------------------------------------------------------------------------- */
+h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; text-transform:capitalize;}
+.heading.nospace{margin-bottom:0;}
+
+/*
+The "hoc" class */
+.hoc{display:block; margin:0 auto;}
+
+
+/* HTML 5 Overrides
+--------------------------------------------------------------------------------------------------------------- */
+section{display:block; margin:0; padding:0;}
+
+
+/* Grid 
+--------------------------------------------------------------------------------------------------------------- */
+.one_third{display:inline-block; float:left; margin:0 0 0 4.21052%; list-style:none; width:30.52631%;}
+.first{margin-left:0; clear:left;}
+
+/* Spacing
+--------------------------------------------------------------------------------------------------------------- */
+.btmspace-50{margin-bottom:20px;}

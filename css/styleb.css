@@ -1,0 +1,21 @@
+.team {
+    margin-top:60px;
+    margin-left:300px;
+}
+.team-container {
+    text-align: center;
+    max-width: 920px;
+}
+
+.team-member {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.team-member-position {
+    color: #747474;
+}
+
+.team-member-text {
+    padding-top: 25px;
+}

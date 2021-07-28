@@ -1,0 +1,142 @@
+  body {
+    font-family: 'Plain-Light', sans-serif;
+  }
+
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  *::before,
+  *::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  a {
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+  }
+
+  a:hover, a:active, a:focus {
+    color: #f1c111;
+    outline: none;
+    text-decoration: none;
+  }
+
+  .section-padding {
+    padding: 8em 0;
+  }
+  .section-padding-half {
+    padding: 4em 0;
+  }
+
+
+  /*---------------------------------------
+     PROJECT              
+  -----------------------------------------*/
+
+  .project {
+    background: #4e3d6b;
+  }
+
+  .project-wrapper {
+    position: relative;
+  }
+
+  .project-wrapper img {
+    border-radius: 5px;
+  }
+
+  .project-info {
+    background: #ffffff;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    left: 32px;
+    width: 90%;
+    padding: 32px;
+  }
+
+  .project-info small {
+    font-family: Plain-Bold;
+    color: #909090;
+    position: relative;
+    top: 2px;
+  }
+
+  .project-info a {
+    color: #057a8d;
+  }
+
+  .project-info .project-icon {
+    background: #057a8d;
+  }
+
+  .project-icon {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    background: #171819;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 32px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding-left: 5px;
+  }
+
+  .owl-theme .owl-dots .owl-dot {
+    outline: none;
+  }
+
+  .owl-theme .owl-dots .owl-dot span {
+    background: #909090;
+    width: 50px;
+    height: 3px;
+    margin:  35px 5px;
+  }
+
+  .owl-theme .owl-dots .owl-dot.active span, 
+  .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f1c111;
+  }
+
+  .list-detail {
+    margin-left: 1em;
+    padding-left: 1em;
+    position: relative;
+  }
+
+  .list-detail li {
+    display: block;
+    list-style: none;
+    margin: 0.6em 0 0 0.8em;
+  }
+
+  .list-detail li::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 0 16px 16px 0;
+    border-color: transparent #f1c111 transparent transparent;
+    border-style: solid;
+    position: absolute;
+    left: 0;
+  }
+
+  .list-detail span {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .client-info img {
+    width: 100px;
+    margin-right: 1em;
+  }
